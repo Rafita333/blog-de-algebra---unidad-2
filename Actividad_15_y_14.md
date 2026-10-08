@@ -222,3 +222,107 @@ m<sup>2</sup> + 2m + 1
 <span style="color:blue">R = 49v<sup>2</sup> + 42v + 5</span>
 
 ---
+**25.** &nbsp;(y<sup>4</sup>+4x)<sup>3</sup>
+
+(y<sup>4</sup>)<sup>3</sup> = y<sup>12</sup>
+
+3(y<sup>4</sup>)<sup>2</sup>(4x) = 12xy<sup>8</sup>
+
+3(y<sup>4</sup>)(4x)<sup>2</sup> = 48x<sup>2</sup>y<sup>4</sup>
+
+(4x)<sup>3</sup> = 64x<sup>3</sup>
+
+<span style="color:blue">R = y<sup>12</sup> + 12xy<sup>8</sup> + 48x<sup>2</sup>y<sup>4</sup> + 64x<sup>3</sup></span>
+
+---
+**26.** &nbsp;(4x<sup>2</sup>+1)<sup>3</sup>
+
+(4x<sup>2</sup>)<sup>3</sup> = 64x<sup>6</sup>
+
+3(4x<sup>2</sup>)<sup>2</sup>(1) = 48x<sup>4</sup>
+
+3(4x<sup>2</sup>)(1)<sup>2</sup> = 12x<sup>2</sup>
+
+(1)<sup>3</sup> = 1
+
+<span style="color:blue">R = 64x<sup>6</sup> + 48x<sup>4</sup> + 12x<sup>2</sup> + 1</span>
+
+---
+**27.** &nbsp;(4x<sup>2</sup>+y)<sup>3</sup>
+
+(4x<sup>2</sup>)<sup>3</sup> = 64x<sup>6</sup>
+
+3(4x<sup>2</sup>)<sup>2</sup>(y) = 48x<sup>4</sup>y
+
+3(4x<sup>2</sup>)(y)<sup>2</sup> = 12x<sup>2</sup>y<sup>2</sup>
+
+(y)<sup>3</sup> = y<sup>3</sup>
+
+<span style="color:blue">R = 64x<sup>6</sup> + 48x<sup>4</sup>y + 12x<sup>2</sup>y<sup>2</sup> + y<sup>3</sup></span>
+
+---
+**28.** &nbsp;(x-y)<sup>3</sup>
+
+(x)<sup>3</sup> = x<sup>3</sup>
+
+-3(x)<sup>2</sup>(y) = -3x<sup>2</sup>y
+
+3(x)(y)<sup>2</sup> = 3xy<sup>2</sup>
+
+-(y)<sup>3</sup> = -y<sup>3</sup>
+
+<span style="color:blue">R = x<sup>3</sup> - 3x<sup>2</sup>y + 3xy<sup>2</sup> - y<sup>3</sup></span>
+
+---
+**29.** &nbsp;(3m+n)<sup>3</sup>
+
+(3m)<sup>3</sup> = 27m<sup>3</sup>
+
+3(3m)<sup>2</sup>(n) = 27m<sup>2</sup>n
+
+3(3m)(n)<sup>2</sup> = 9mn<sup>2</sup>
+
+(n)<sup>3</sup> = n<sup>3</sup>
+
+<span style="color:blue">R = 27m<sup>3</sup> + 27m<sup>2</sup>n + 9mn<sup>2</sup> + n<sup>3</sup></span>
+
+---
+**30.** &nbsp;(y+4)<sup>3</sup>
+
+(y)<sup>3</sup> = y<sup>3</sup>
+
+3(y)<sup>2</sup>(4) = 12y<sup>2</sup>
+
+3(y)(4)<sup>2</sup> = 48y
+
+(4)<sup>3</sup> = 64
+
+<span style="color:blue">R = y<sup>3</sup> + 12y<sup>2</sup> + 48y + 64</span>
+
+---
+**31.** &nbsp;(4m+2n<sup>2</sup>)<sup>3</sup>
+
+(4m)<sup>3</sup> = 64m<sup>3</sup>
+
+3(4m)<sup>2</sup>(2n<sup>2</sup>) = 96m<sup>2</sup>n<sup>2</sup>
+
+3(4m)(2n<sup>2</sup>)<sup>2</sup> = 48mn<sup>4</sup>
+
+(2n<sup>2</sup>)<sup>3</sup> = 8n<sup>6</sup>
+
+<span style="color:blue">R = 64m<sup>3</sup> + 96m<sup>2</sup>n<sup>2</sup> + 48mn<sup>4</sup> + 8n<sup>6</sup></span>
+
+---
+**32.** &nbsp;(y<sup>2</sup>-5)<sup>3</sup>
+
+(y<sup>2</sup>)<sup>3</sup> = y<sup>6</sup>
+
+-3(y<sup>2</sup>)<sup>2</sup>(5) = -15y<sup>4</sup>
+
+3(y<sup>2</sup>)(5)<sup>2</sup> = 75y<sup>2</sup>
+
+-(5)<sup>3</sup> = -125
+
+<span style="color:blue">R = y<sup>6</sup> - 15y<sup>4</sup> + 75y<sup>2</sup> - 125</span>
+
+---
