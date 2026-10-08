@@ -1,4 +1,543 @@
 # Binomios
+## 1. ¿Qué son los productos notables?
+
+Son multiplicaciones algebraicas que aparecen con tanta frecuencia que podemos usar una fórmula para resolverlas más rápido.
+
+En los ejercicios vimos principalmente:
+
+1. Binomio al cuadrado
+2. Binomios conjugados o diferencia de cuadrados
+3. Multiplicación de binomios con términos diferentes
+4. Binomio al cubo
+
+---
+
+# 2. Binomio al cuadrado
+
+Cuando tenemos:
+
+(a+b)²
+
+Usamos:
+
+(a+b)² = a² + 2ab + b²
+
+### Ejemplo:
+
+(4v+5)²
+
+Primero elevamos el primer término:
+
+(4v)² = 16v²
+
+Después multiplicamos los dos términos y multiplicamos por 2:
+
+2(4v)(5) = 40v
+
+Finalmente elevamos el segundo término:
+
+5² = 25
+
+Por lo tanto:
+
+R = 16v² + 40v + 25
+
+---
+
+## Si hay un signo negativo
+
+La fórmula es:
+
+(a-b)² = a² - 2ab + b²
+
+### Ejemplo:
+
+(r-5)²
+
+r² - 2(r)(5) + 5²
+
+R = r² - 10r + 25
+
+### Algo importante
+
+El último término siempre queda positivo porque estamos elevando al cuadrado:
+
+(-5)² = 25
+
+---
+
+# 3. Multiplicación de binomios diferentes
+
+Cuando tenemos algo como:
+
+(a+b)(c+d)
+
+No podemos utilizar directamente la fórmula del binomio al cuadrado si los primeros términos son diferentes.
+
+Tenemos que multiplicar cada término del primer paréntesis por cada término del segundo.
+
+### Ejemplo:
+
+(8m+8)(8m+5)
+
+Multiplicamos:
+
+(8m)(8m) = 64m²
+
+(8m)(5) = 40m
+
+(8)(8m) = 64m
+
+(8)(5) = 40
+
+Ahora juntamos los términos semejantes:
+
+40m + 64m = 104m
+
+Resultado:
+
+R = 64m² + 104m + 40
+
+---
+
+## Método rápido
+
+También podemos usar la multiplicación cruzada:
+
+(a+b)(c+d)
+
+= ac + ad + bc + bd
+
+Por ejemplo:
+
+(5p+8)(5p+6)
+
+5p · 5p = 25p²
+
+5p · 6 = 30p
+
+8 · 5p = 40p
+
+8 · 6 = 48
+
+Entonces:
+
+R = 25p² + 70p + 48
+
+---
+
+# 4. Binomios conjugados
+
+Los binomios conjugados tienen los mismos términos, pero uno tiene suma y el otro resta.
+
+Por ejemplo:
+
+(a+b)(a-b)
+
+Su resultado es:
+
+a² - b²
+
+Esto se llama diferencia de cuadrados.
+
+### ¿Por qué desaparece el término de en medio?
+
+Si desarrollamos:
+
+(a+b)(a-b)
+
+a² - ab + ab - b²
+
+Los términos:
+
+-ab + ab
+
+se cancelan.
+
+Por eso queda:
+
+a² - b²
+
+---
+
+## Ejemplo:
+
+(7m-2)(7m+2)
+
+Elevamos el primer término:
+
+(7m)² = 49m²
+
+Elevamos el segundo:
+
+2² = 4
+
+Y restamos:
+
+R = 49m² - 4
+
+---
+
+## Otro ejemplo:
+
+(2k³+4)(2k³-4)
+
+(2k³)² - 4²
+
+= 4k⁶ - 16
+
+### Regla rápida:
+
+(a+b)(a-b) = a²-b²
+
+---
+
+# 5. Binomio al cubo
+
+Cuando tenemos:
+
+(a+b)³
+
+Usamos:
+
+(a+b)³ = a³ + 3a²b + 3ab² + b³
+
+Los números que aparecen son:
+
+1, 3, 3, 1
+
+---
+
+## Ejemplo:
+
+(3m+n)³
+
+### Primer término:
+
+(3m)³ = 27m³
+
+### Segundo término:
+
+3(3m)²(n)
+
+= 3(9m²)(n)
+
+= 27m²n
+
+### Tercer término:
+
+3(3m)(n²)
+
+= 9mn²
+
+### Cuarto término:
+
+n³
+
+Resultado:
+
+R = 27m³ + 27m²n + 9mn² + n³
+
+---
+
+# 6. Binomio al cubo con resta
+
+Cuando tenemos:
+
+(a-b)³
+
+La fórmula es:
+
+(a-b)³ = a³ - 3a²b + 3ab² - b³
+
+Los signos quedan:
+
++  -  +  -
+
+### Ejemplo:
+
+(x-y)³
+
+x³ - 3x²y + 3xy² - y³
+
+---
+
+# 7. Ejemplo con números y variables
+
+(4m+2n²)³
+
+Aquí:
+
+a = 4m
+
+b = 2n²
+
+Usamos:
+
+a³ + 3a²b + 3ab² + b³
+
+### Primer término:
+
+(4m)³ = 64m³
+
+### Segundo término:
+
+3(4m)²(2n²)
+
+= 3(16m²)(2n²)
+
+= 96m²n²
+
+### Tercer término:
+
+3(4m)(2n²)²
+
+= 3(4m)(4n⁴)
+
+= 48mn⁴
+
+### Cuarto término:
+
+(2n²)³ = 8n⁶
+
+Resultado:
+
+R = 64m³ + 96m²n² + 48mn⁴ + 8n⁶
+
+---
+
+# 8. Potencias de potencias
+
+Esto apareció bastante en los ejercicios.
+
+Cuando tenemos:
+
+(x^a)^b
+
+Los exponentes se multiplican:
+
+(x^a)^b = x^(ab)
+
+### Ejemplos:
+
+(y⁴)³ = y¹²
+
+(x²)³ = x⁶
+
+(n²)³ = n⁶
+
+---
+
+# 9. Multiplicación de términos con la misma variable
+
+Cuando multiplicamos potencias que tienen la misma base, los exponentes se suman:
+
+x^a · x^b = x^(a+b)
+
+### Ejemplo:
+
+x² · x³ = x⁵
+
+Pero cuando tenemos una potencia de potencia:
+
+(x²)³
+
+Los exponentes se multiplican:
+
+2 · 3 = 6
+
+Por eso:
+
+(x²)³ = x⁶
+
+---
+
+# 10. Términos semejantes
+
+Solamente podemos sumar o restar términos que tengan la misma variable con los mismos exponentes.
+
+### Ejemplo:
+
+40m + 64m
+
+Como ambos tienen m:
+
+40m + 64m = 104m
+
+Pero:
+
+40m + 64m²
+
+NO se pueden combinar.
+
+---
+
+# 11. Cómo saber qué método utilizar
+
+Antes de empezar un ejercicio, fíjate en la estructura.
+
+### Caso 1: Binomio al cuadrado
+
+Si tienes:
+
+(a+b)²
+
+Usa:
+
+a² + 2ab + b²
+
+Si tienes:
+
+(a-b)²
+
+Usa:
+
+a² - 2ab + b²
+
+---
+
+### Caso 2: Binomios conjugados
+
+Si tienes:
+
+(a+b)(a-b)
+
+Usa directamente:
+
+a²-b²
+
+Es mucho más rápido que multiplicar término por término.
+
+---
+
+### Caso 3: Binomios diferentes
+
+Si tienes:
+
+(a+b)(c+d)
+
+Multiplica los cuatro términos:
+
+ac + ad + bc + bd
+
+---
+
+### Caso 4: Binomio al cubo
+
+Si tienes:
+
+(a+b)³
+
+Usa:
+
+a³ + 3a²b + 3ab² + b³
+
+Si tienes:
+
+(a-b)³
+
+Usa:
+
+a³ - 3a²b + 3ab² - b³
+
+---
+
+# 12. Tabla de fórmulas importantes
+
+| Tipo | Fórmula |
+|---|---|
+| Cuadrado de suma | (a+b)² = a²+2ab+b² |
+| Cuadrado de diferencia | (a-b)² = a²-2ab+b² |
+| Binomios conjugados | (a+b)(a-b) = a²-b² |
+| Cubo de suma | (a+b)³ = a³+3a²b+3ab²+b³ |
+| Cubo de diferencia | (a-b)³ = a³-3a²b+3ab²-b³ |
+
+---
+
+# 13. La idea más importante
+
+Antes de hacer cualquier operación, primero identifica la forma.
+
+Por ejemplo:
+
+(7m-2)(7m+2)
+
+Mismos términos y signos diferentes:
+
+→ Binomios conjugados
+
+Entonces:
+
+(7m)² - 2²
+
+= 49m² - 4
+
+---
+
+Mientras que:
+
+(7m-7)(7m+7)
+
+También son conjugados:
+
+→ (7m)² - 7²
+
+= 49m² - 49
+
+Pero:
+
+(8m+8)(8m+5)
+
+NO son conjugados y tampoco es un binomio al cuadrado.
+
+→ Multiplicas los cuatro términos.
+
+---
+
+# 14. Truco para no confundirte
+
+Pregúntate estas tres cosas:
+
+1. ¿Hay un exponente ² afuera?
+   → Binomio al cuadrado.
+
+2. ¿Hay un exponente ³ afuera?
+   → Binomio al cubo.
+
+3. ¿Hay dos paréntesis y los términos son iguales pero los signos cambian?
+   → Binomios conjugados.
+
+Si ninguna de esas opciones aplica:
+
+→ Multiplica término por término.
+
+---
+
+# Resumen final
+
+**Binomio al cuadrado:**
+
+(a+b)² → a² + 2ab + b²
+
+**Binomio al cuadrado con resta:**
+
+(a-b)² → a² - 2ab + b²
+
+**Binomios conjugados:**
+
+(a+b)(a-b) → a² - b²
+
+**Binomio al cubo:**
+
+(a+b)³ → a³ + 3a²b + 3ab² + b³
+
+**Binomio al cubo con resta:**
+
+(a-b)³ → a³ - 3a²b + 3ab² - b³
+
+**Binomios diferentes:**
+
+(a+b)(c+d) → ac + ad + bc + bd
 Resuelve los siguientes binomios.
 
 **1.** &nbsp;(r-5)<sup>2</sup>
@@ -324,5 +863,3 @@ m<sup>2</sup> + 2m + 1
 -(5)<sup>3</sup> = -125
 
 <span style="color:blue">R = y<sup>6</sup> - 15y<sup>4</sup> + 75y<sup>2</sup> - 125</span>
-
----
