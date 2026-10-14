@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--lang establece el lenguaje de la pagina-->
+<html lang="es">
+<head>
+    <!--UTF-8 es lo que permite que la computadora sepa que es cada letra-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=advice-width, inicial-scale=1.0">
+    <title> Blog Matematico Interactivo</title>
+    <link rel="stylesheet" href="diseño.css">
+    <!-- es el que se encarga del diseño usando CSS -->
+</head>
+<!--En body va todo el contenido del html lo que se va a mostrar-->
+<body>
+<h1>Fundamentos de algebra</h1>
+
+
+
+<!--Menu de la pagina por medio de una lista desordenada-->
+<ul>
+    <li onclick="Mostrar()">Unidad I</li>
+    <!--Contenido-->
+<div id="Unidad1" style="display: none;">
+<ul>
+    <li onclick="mostrar()">Conjuntos Numericos</li>
+     <div id="conjuntos" style="display: none;">
+      <h2>Conjuntos Numericos</h2>
+      <p>Los conjuntos numericos nos sirven para poder identficar la clasificacion de cada numero.</p>
+      <img src="img/conjuntos_numericos.png" alt="Conjuntos numericos">
+      <table>
+        <tr>
+            <th>Conjunto</th>
+            <th>Regla para identificarlo</th>
+        </tr>
+        <tr>
+            <td>Naturales(N)</td>
+            <td>Para contar, sin signos ni decimales: 1,2,3,4...</td>
+        </tr>
+        <tr>
+            <td>Enteros(Z)</td>
+            <td>Naturales + sus negativos + el cero: ...,-2,-1,0,1,2...</td>
+        </tr>
+        <tr>
+            <td>Racionales(Q)</td>
+            <td>Se puede escribir como fraccion a/b (con b diferente a 0 ). Si tu decimal termina o se repite, es racional.</td>
+        </tr>
+        <tr>
+            <td>Irracionales(I)</td>
+            <td>Suelen ser infinitos y no se puede escribir una fraccion exacta con ellos.</td>
+        </tr>
+        <tr>
+            <td>Reales(R)</td>
+            <td>Racionales + irracionales - cualquier numero que puedas ubicar en la recta numerica. </td>
+        </tr>
+      </table>
+      <h3>Ejemplos</h3>
+      <p>Clasifica π <button onclick="Show()">Mostrar clasificacion</button></p>
+      <div id="respuesta" style="display: none;">
+        <p>π equivale 3.141592653 y asi infinitamente por lo tanto no pertenece a los racionales, por lo tanto tampoco a los enteros ni a los naturales, pi solamente pertenece
+            a los irracionales y a los Reales porque se puede ubicar y contar.
+        </p>
+      </div>
+
+     </div>
+</ul>
+</div>
+<!--Inicio del contenido de la unidad 2-->
+    <li onclick="unidad2()">Unidad II</li>
+    <div id="uni2" style="display: none;">
+        <ul>
+            <li onclick="mostrartema()">Productos notables</li>
+            <div class="tema_unidad2" style="display: none;">
+                <!-- Aquí JavaScript inyectará las entradas desde posts.js -->
+                <ul id="lista-entradas"></ul>
+                <ul id="conceptos" class="interactivo oculto">
+                    <li onclick="resaltarElemento(this)">Álgebra: Manipulación de símbolos y ecuaciones.</li>
+                    <li onclick="resaltarElemento(this)">Geometría: Estudio de las propiedades de figuras y espacios.</li>
+                    <li onclick="resaltarElemento(this)">Cálculo: Análisis del cambio y del movimiento.</li>
+                    <li onclick="resaltarElemento(this)">Estadística: Análisis y tratamiento de datos.</li>
+                </ul>                   
+            </div>
+        </ul>
+    </div>
+</ul>
+
+<script src="post.js">
+
+</script>
+<script src="Script.js">
+    
+</script>
+
+</body>
+</html>

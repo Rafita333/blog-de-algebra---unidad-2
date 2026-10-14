@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background: linear-gradient(135deg, #eef5f9, #ffffff);
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: #195485;
+}
+body > ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+body > ul > li {
+    display: inline-block;
+    background: #195485;
+    cursor: pointer;
+    color: white;
+    padding: 12px 20px;
+    margin: 5px;
+    border-radius: 8px;
+}
+body > ul > li:hover {
+    background: #854A19;
+}
+#conjuntos {
+    background: white;
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #bbb;
+}
+.tema_unidad2{
+    background: white;
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #bbb;
+}
+#conjuntos h2 {
+    color: #195485;
+}
+
+#Unidad1 ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+li{
+    cursor: pointer;
+    border: 2px solid #195485;
+    padding: 10px;
+    border-radius: 10px;
+}
+#conjuntos h2 {
+    color: #195485;
+}
+
+/* Imagen */
+#conjuntos img {
+    max-width: 100%;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Tabla */
+#conjuntos table {
+    font-family: Impact, Haettenschweiler;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#conjuntos th,
+#conjuntos td {
+    border: 1px solid #999;
+    padding: 10px;
+}
+
+#conjuntos th {
+    background: #195485;
+    color: white;
+}
+#uni2 li{
+    list-style: none;
+}
+#uni2 li:hover{
+    background: #95b05b;
+}
+#Unidad1 li:hover{
+    background: #95b05b;
+}
+
+body {
+            font-family: Arial, sans-serif;
+            max-width: 700px;
+            margin: 20px auto;
+            padding: 10px;
+            color: #222;
+        }
+
+        h1 {
+            color: #1a5276;
+            cursor: pointer;
+            border-bottom: 2px solid #1a5276;
+            padding-bottom: 5px;
+        }
+
+        .subtitulo {
+            font-size: 18px;
+            color: #2980b9;
+            margin-top: 25px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+
+        p {
+            font-size: 16px;
+            background-color: #f2f2f2;
+            padding: 10px;
+            border-radius: 4px;
+        }
+
+        /* Lista de entradas cargadas dinámicamente */
+        #lista-entradas {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #lista-entradas li {
+            background-color: #fafafa;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 12px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        #lista-entradas li:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        #lista-entradas a {
+            color: #1a5276;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        #lista-entradas a:hover {
+            color: #2980b9;
+            text-decoration: underline;
+        }
+
+        .fecha-post {
+            display: inline-block;
+            font-size: 12px;
+            color: #7f8c8d;
+            margin-left: 8px;
+        }
+
+        .resumen-post {
+            margin: 8px 0 0 0;
+            background-color: transparent;
+            padding: 0;
+            font-size: 14px;
+            color: #555;
+        }
+
+        /* Clases auxiliares para elementos interactivos */
+        ul.interactivo {
+            background-color: #fafafa;
+            padding: 15px 30px;
+            border: 1px solid #ddd;
+        }
+
+        ul.interactivo li {
+            margin: 5px 0;
+            cursor: pointer;
+            padding: 4px;
+        }
+
+        .oculto {
+            display: none;
+        }
+
+        .resaltado {
+            background-color: #d4efdf;
+            color: #196f3d;
+        }
+
+        .cambio-color {
+            color: #c0392b;
+        }
