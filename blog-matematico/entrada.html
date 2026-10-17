@@ -56,6 +56,27 @@
         } else {
             contenedor.innerHTML = "<p>Entrada no encontrada.</p>";
         }
+
+    </script>
+    <script>
+        const params2 = new URLSearchParams(window.location.search);
+        const postId2 = params2.get('ID');
+        const postInfo2 = publicaciones2.find(p => p.ID === postId2);
+        const contenedor2 = document.getElementById('contenido-entrada');
+
+        if (postInfo2) {
+            document.getElementById('titulo-pagina').textContent = postInfo2.title + " - Blog Matemático";
+            document.getElementById('titulo-entrada').textContent = postInfo2.title;
+            document.getElementById('fecha-entrada').textContent = "Publicado el: " + postInfo2.date;
+
+            const script = document.createElement('script');
+            script.src = postInfo2.archive;
+            script.onload = () => { contenedor2.innerHTML = contenidoEntrada2; };
+            script.onerror = () => { contenedor2.innerHTML = "<p>Error al cargar el contenido de la entrada.</p>"; };
+            document.body.appendChild(script);
+        } else {
+            contenedor2.innerHTML = "<p>Entrada no encontrada.</p>";
+        }
     </script>
 </body>
 </html>

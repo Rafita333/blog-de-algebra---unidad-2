@@ -35,3 +35,13 @@ const publicaciones = [
     resumen: "Como resolver y en que consisten."
   }
 ];
+
+const publicaciones2 = [
+  {
+    ID: "02pn",
+    title: "Factorizacion I",
+    archive: "entrada/factorizacion.js",
+    date: "2026-10-17",
+    short: "En que consiste factorizar?."
+  },
+];
