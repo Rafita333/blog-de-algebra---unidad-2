@@ -44,4 +44,11 @@ const publicaciones2 = [
     date: "2026-10-17",
     short: "En que consiste factorizar?."
   },
+  {
+    ID: "fact",
+    title: "Factorizacion 2",
+    archive: "entrada/factorizacion2.js",
+    date: "2026-10-22",
+    short: "que hay de los trinomios y los que estan al cubo?."
+  },
 ];
