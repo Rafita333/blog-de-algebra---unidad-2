@@ -51,4 +51,12 @@ const publicaciones2 = [
     date: "2026-10-22",
     short: "que hay de los trinomios y los que estan al cubo?."
   },
+  {
+    ID: "ecuaciones",
+    title: "Ecuaciones de Primer Grado",
+    archive: "entrada/Ecuaciones.js",
+    date: "2026-10-28",
+    short: "Que son las ecuaciones de primer grado y como se resuelven?"
+  },
+
 ];
